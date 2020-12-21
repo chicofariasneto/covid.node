@@ -1,0 +1,37 @@
+{
+  "name": "covid.node",
+  "version": "1.0.0",
+  "description": "This is a simple project to consume API Brasil.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "debug": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicofariasneto/covid.node.git"
+  },
+  "keywords": [
+    "covid",
+    "node",
+    "api",
+    "brasil.io"
+  ],
+  "author": "chicofariasneto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chicofariasneto/covid.node/issues"
+  },
+  "homepage": "https://github.com/chicofariasneto/covid.node#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
